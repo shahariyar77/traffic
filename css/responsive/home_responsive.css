@@ -1,0 +1,238 @@
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (laptop) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+    .box-btn, input[type="submit"], button[type="submit"] {
+	font-size: 13px;
+	padding: 13px 11px;
+}
+ .left-img img {
+	width: 100%;
+}
+  .hero-area h1 {
+	font-size: 40px;
+}    
+ h3 {
+	font-size: 18px;
+}
+ .single-service-box-2 {
+	height: 220px;
+}
+    .slide-item-wraper h2 {
+	font-size: 50px;
+	line-height: 60px;
+}
+    .pd-50 {
+	padding-top: 50px;
+}
+    .pd-50 h3 {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+    .single-case-study {
+	height: 280px;
+}
+    .blog-thumb-wraper {
+	height: 200px;
+}
+    .single-bloge-box {
+	padding: 20px;
+	
+}
+    .blog-thumb-wraper {
+	margin-bottom: 20px;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -20px;
+}
+    .cta-area.theme-3 {
+	padding: 80px 0;
+}
+    .service-section {
+	padding-top: 30px;
+}
+    .service-section::before {
+	top: -46px;
+	width: 48%;
+}
+    .shadow-img {
+	height: 100%;
+	width: 100%;
+} 
+    .all-logo-brand img {
+	width: 15%;
+}
+    .box-case-study .single-case-study {
+	height: 220px;
+}
+    .single-team-box img {
+	height: 230px;
+}
+} 
+    
+   
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    
+    
+}
+/*------------------- tablate & mobile layout -------------------- */
+
+@media only screen and (max-device-width: 991px){
+    .slicknav_menu {
+	display: block;
+}
+     .logo {
+	text-align: center;
+	margin-bottom: 20px;
+}
+   .main-manu {
+	display: none;
+}
+    .header-area .text-right {
+	text-align: center !important;
+}
+    .hero-area .text-center {
+	text-align: left!important;
+}
+    .hero-area {
+	padding: 50px;
+}
+    .website-checker-form {
+	margin-bottom: 30px;
+}
+    .mobile-padding-fix {
+	padding-top: 0;
+	padding-bottom: 50px;
+}
+    .mobile-text-left {
+	text-align: left;
+}
+    .section-padding {
+	padding: 75px 0;
+}
+    .cta-area {
+	text-align: center;
+}
+    .cta-area .box-btn {
+	margin-top: 20px;
+}
+    .mobile-only-margin {
+	height: 50px;
+}
+    .breadcroumb-area {
+	padding: 80px 0;
+	font-size: 18px;
+}
+    .breadcroumb-area h2 {
+	margin-bottom: 10px;
+}
+    .heroimg {
+	width: auto;
+}
+    .hero-area h1 {
+	margin-top: 0;
+	max-width: inherit;
+    font-size: 40px;
+}
+    .hero-form {
+	margin-top: 50px;
+}
+    .single-bloge-box {
+	margin-bottom: 30px;
+}
+    .cta-area.theme-3 h2 {
+	font-size: 35px;
+}
+    .cta-area.theme-3 {
+	padding: 80px 0;
+}
+    .footer-area-2, .footer-area-2 .social-link {
+	text-align: center;
+}
+    .copyright-area-2 {
+	text-align: center;
+}
+    .copyright-area-2 .text-right {
+	text-align: center !important;
+}
+    .absolute-glarry-1 {
+	position: relative;
+	left: 0;
+	top: auto;
+}
+    .tittle-galery.text-right {
+	text-align: left !important;
+}
+    .service-section::before {
+	display: none;
+}
+    .service-box-2 {
+	min-height: inherit;
+}
+    .service-section::after {
+   width: 100%;
+}
+    .video-play-btn {
+	padding-left: 3px;
+}
+    .bloge1-img {
+	width: 100%;
+}
+    
+}
+/*-----------------=== tablate layout===-----------------------*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    
+        
+}
+/*================= 320  mobile lay out   =======================*/
+@media only screen and (max-device-width: 767px) {
+    .hero-area {
+	padding: 10px;
+}
+    .herositeimg,.service-detalce-1,.peopleimg,.shadow-img,.heroimg,.heroimg-h3,.seoimg {
+	width: 100%;
+}
+    .footer-area ul,.case-study-box-style-2,.single-pricing-box.theme-2,.single-bloge-box,.single-team-box {
+	margin-bottom: 50px;
+}
+    .slide-item-wraper h2 {
+	font-size: 31px;
+	line-height: 41px;
+}
+  .website-ckeck-form input {
+	margin-right: 0;
+	width: 100%;
+	margin-bottom: 10px;
+}
+    .website-ckeck-form input[type="submit"] {
+	width: auto;
+}
+    .fa.fa-search {
+	position: absolute;
+	top: -63px;
+	right: 24px;
+}
+    .service-section {
+	margin-top: 0;
+    margin-bottom: 0;
+}
+    .all-logo-brand img {
+	height: 98px;
+}
+    .seoimg {
+	padding-bottom: 30px;
+}
+}
+/*=================  wide mobile lay out   =======================*/
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+    
+}

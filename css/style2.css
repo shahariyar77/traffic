@@ -1,0 +1,33 @@
+h3 {
+  font-size: 22px;
+}
+.hero-area{
+    background-image: url(../img/hero-bg-2.png);
+    background-color: #3d8af2;
+}
+.box-btn, input[type=submit],button[type=submit]{
+    background: #06d6a0;
+}
+.hero-area {
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  line-height: 1.8;
+  padding: 80px 0;
+}
+.hero-area h1 {
+  font-size: 43px;
+  color: #fff;
+  margin-top: 90px;
+}
+.service-icon {
+  color: #2ea5f6;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.slicknav_btn {
+  background:#24d5a1;
+}
+.slicknav_nav a:hover,.slicknav_nav .slicknav_row:hover {
+  background: #24d5a1;
+}
